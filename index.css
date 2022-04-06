@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  
+}
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #ecf0f1;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.datatableTitle{
+  color: rgb(27, 26, 131);
+  
+}
+
+.MuiBox-root{
+  padding:12px 30px 14px 58px !important;
+
+}
+
+
+.checkbox{
+  display: inline !important;
+  margin: 5px;  
+}
+
+.Nextbtn{
+  margin-right: 140%!important;
+  margin-left: 460%!important;
+}
+
+
+/* .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root{
+  margin-left: 60%;
+  display: inline !important;
+} */
+
+
+/* .list-item{
+  display: inline;
+} */
+.css-zg5uog{
+  height: auto !important;
+}
+
+.css-ix1f03-MuiTypography-root{
+  display: inline;
+  margin-left: 60%;
+}
+.h4{
+  display: inline;
+} 
+
+.css-checkbox{
+  display: inline !important;
+}
+
+.checkbox{
+  padding-left: 1%!important;
+   font-weight: bold!important;
+  display: inline !important;
+}
+/* .css-ix1f03-MuiTypography-root {
+  text-align:center;
+} */
+/* p{
+  margin: auto !important;
+} */
+.css-15c0k9t-MuiTypography-root{
+  margin:0 -12px 10px!important;
+  color: white;
+
+
+}

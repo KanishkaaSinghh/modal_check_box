@@ -1,0 +1,129 @@
+li {
+  
+    margin-left: 0;
+    text-indent: -2em;
+ }
+ h5{
+    
+    border-left: 5px solid  black  ;
+    padding-left: 16px;
+    margin: -10px;
+    
+ }
+ .btn{
+     border-color: #0dcaf0 !important;
+     color:  black;
+ }
+
+
+
+.modal-modal-description{
+    max-height: 100%!important;
+    overflow-y: auto!important;
+    overflow-x: hidden!important;
+    transition: all 500ms!important;
+    transform: translateY(-40%)!important;
+    opacity: 0!important;
+    }
+
+.Modalbuttons{
+    align-items: center!important;
+    margin:-3% 48%!important;;
+    display: flex!important;;
+    padding: 1em 0.1em 1em 0em!important;;
+}
+
+.modal-height {
+  
+  display: table; 
+  display: inline-block;
+  will-change: opacity;
+  position: fixed; 
+  justify-content: center;
+  align-items: center;
+  background: rgba(#111, 0.35);
+  
+  transition: all 500ms;
+  width: 180px;
+}
+.checkboxall{
+    margin: 10px;
+    margin-right: 10px;
+}
+
+.css-checkbox{
+    
+    margin-right: 10px;
+}
+input[type="checkbox"]{
+    display:none
+}
+#selectall{
+    display: none !important;
+}
+label{
+    position: relative;
+} 
+label::before{
+    content: "";
+    background: url('/src/img/check-circle-solid.png');
+    background-position: left;
+    background-size: contain;
+    width: 16px;
+    height:16px;
+    position: absolute;
+    left: -24px;
+    top: 3px;
+    transform: scale(0) rotateZ(180deg); 
+    transition: all 0.10s cubic-bezier(0.54, 0.01, 0, 0.49); 
+} 
+input[type="checkbox"]:checked + label::before{
+    transform: scale(1) rotateZ(0deg);
+}
+
+label::after{
+    content: " ";
+    border: 1px solid  white;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -26px;
+    top: 1px;
+    border-radius: 50%;
+}
+.css-329y47{
+    background-color: #dee2e6;
+}
+
+#selectall{
+    position: relative;
+} 
+#selectall::before{
+    content: "";
+    background: url('/src/img/check-circle-solid.png');
+    background-position: left;
+    background-size: contain;
+    width: 18px;
+    height:18px;
+    position: absolute;
+    left: -26px;
+    top: 1px;
+    transform: scale(0) rotateZ(180deg); 
+} 
+input[type="checkbox"]:checked + #selectall::before{
+    transform: scale(1) rotateZ(0deg);
+}
+
+#selectall::after{
+    content: " ";
+    border: 1px solid #00a3cc;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -24px;
+    top: 3px;
+    border-radius: 50%;
+}
+.css-329y47{
+    background-color: #dee2e6;
+}
